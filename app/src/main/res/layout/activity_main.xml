@@ -67,15 +67,14 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/button1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:backgroundTint="#00B4DC"
-                android:textColor="#E1E1E1"
-                android:textSize="16dp"
-                tools:text="名前" />
+                android:textColor="#FFFFFF"
+                android:text="名前" />
 
             <Button
                 android:id="@+id/button2"
@@ -83,9 +82,9 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:backgroundTint="#00B4DC"
-                android:textColor="#E1E1E1"
-                tools:text="スポーツ" />
+                android:backgroundTint="#969696"
+                android:text="スポーツ"
+                android:textColor="#FFFFFF" />
         </LinearLayout>
 
         <LinearLayout
@@ -99,19 +98,19 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:backgroundTint="#00B4DC"
-                android:textColor="#E1E1E1"
-                tools:text="自己紹介" />
+                android:backgroundTint="#969696"
+                android:text="自己紹介"
+                android:textColor="#FFFFFF" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:backgroundTint="#00B4DC"
-                android:textColor="#E1E1E1"
-                tools:text="趣味" />
+                android:backgroundTint="#969696"
+                android:text="趣味"
+                android:textColor="#FFFFFF" />
         </LinearLayout>
 
     </LinearLayout>
